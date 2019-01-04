@@ -1,0 +1,17 @@
+{
+  "name": "docker-version-cli",
+  "version": "1.0.0",
+  "main": "lib/cli.js",
+  "bin": {
+    "docker-version": "./lib/cli.js"
+  },
+  "repository": "https://github.com/metowolf/docker-version.git",
+  "author": "metowolf <i@i-meto.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "execa": "^1.0.0",
+    "inquirer": "^6.2.1",
+    "ora": "^3.0.0"
+  }
+}
